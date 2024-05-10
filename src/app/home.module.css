@@ -1,0 +1,18 @@
+.homecontainer {
+  background-color: #d6e29d;
+  height: 85vh;
+}
+
+.subheading {
+  background-color: #a3c57d;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 45px;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 3vw;
+  margin: 0px 40vw;
+}

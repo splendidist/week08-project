@@ -1,0 +1,16 @@
+.recipescontainer {
+  background-color: #a3c57d;
+  height: 85vh;
+}
+
+.subheading {
+  background-color: #d6e29d;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 45px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 40vw;
+}
