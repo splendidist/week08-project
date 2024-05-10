@@ -1,0 +1,88 @@
+.formbackground {
+  background-color: #81a45d;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.formbackground h2 {
+  background-color: #d6e29d;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 45px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 100vw;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.formone,
+.formtwo,
+.formthree {
+  display: flex;
+  flex-direction: column;
+}
+
+.formthree {
+  align-items: center;
+}
+
+.formone label {
+  margin-top: 20px;
+}
+
+.form label {
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 24px;
+}
+
+.form input,
+.form select {
+  padding: 5px;
+  width: 15vw;
+  height: 2vh;
+  align-self: center;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+}
+
+.form select {
+  height: 3vh;
+}
+
+.form textarea {
+  resize: none;
+  padding: 15px;
+  height: 40vh;
+  align-self: center;
+  border: none;
+  border-radius: 20px;
+}
+
+.formtwo textarea:last-child {
+  width: 15vw;
+}
+
+.formthree textarea:nth-child(2) {
+  width: 35vw;
+}
+
+.form button {
+  width: 5vw;
+  border: none;
+  border-radius: 20px;
+  background-color: #d6e29d;
+  padding: 5px;
+}

@@ -1,6 +1,8 @@
 .homecontainer {
   background-color: #d6e29d;
-  height: 85vh;
+  height: 75vh;
+  display: flex;
+  padding-top: 10vh;
 }
 
 .subheading {
@@ -14,5 +16,4 @@
   justify-content: center;
   align-items: center;
   padding: 5vh 3vw;
-  margin: 0px 40vw;
 }

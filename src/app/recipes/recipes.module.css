@@ -1,6 +1,25 @@
-.recipescontainer {
+.recipesbackground {
   background-color: #a3c57d;
-  height: 85vh;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+}
+
+.sortcontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.sortcontainer a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 10px 50px;
+  background-color: #d6e29d;
+  border-radius: 45px;
 }
 
 .subheading {
@@ -12,5 +31,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 40vw;
+}
+
+.recipescontainer {
+  width: 90vw;
+  padding: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.recipecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipecontainer a {
+  color: black;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.recipecontainer a:hover,
+.sortcontainer a:hover {
+  text-decoration: underline;
+}
+
+.recipecontainer p {
+  font-size: 24px;
 }

@@ -1,0 +1,55 @@
+.recipebackground {
+  background-color: #a3c57d;
+  height: 85vh;
+  padding: 5vh 3vw;
+}
+
+.postcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 20vw;
+}
+
+.titlecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.postcontainerh2,
+.postcontainer h3,
+.postcontainer p,
+.postcontainer a {
+  padding: 10px 0px;
+}
+
+.titlecontainer h2 {
+  font-size: 40px;
+}
+
+.postcontainer h3 {
+  font-size: 28px;
+}
+
+.postcontainer p {
+  font-size: 24px;
+}
+
+.recipebackground a {
+  color: #2d2d2d;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #d6e29d;
+  text-align: center;
+  padding: 1vh 1vw;
+  border-radius: 40px;
+  display: flex;
+  width: 10vw;
+  justify-content: center;
+}
+
+.recipebackground a:hover {
+  text-decoration: underline;
+}
