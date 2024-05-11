@@ -81,13 +81,13 @@ CREATE TABLE comments (
 
 --POPULATE COMMENTS TABLE
 
-INSERT INTO recipe_comments (recipe_id, username, comment)
+INSERT INTO comments (recipe_id, username, comment)
 VALUES
-(1, '', 'This recipe was delicious! I loved it.'),
-(1, '', 'I made this last night and it was amazing.'),
-(2, '', 'I think Ill try this recipe over the weekend.'),
-(2, '', 'Not a fan of this recipe, it needs more seasoning.'),
-(3, '', '');
-(3, '', '');
-(5, '', '');
-(5, '', '');
+(1, 'Luna', 'These pancakes were delicious! I loved them.'),
+(1, 'Zara', 'I made these this morning and they were amazing.'),
+(2, 'Lucas', 'I think Ill try this recipe over the weekend.'),
+(2, 'Sophia', 'Not a fan of this recipe, it needs more seasoning.'),
+(3, 'Angela', 'I love banana bread. I make this 3 times a week.'),
+(3, 'Liam', 'mmmm'),
+(5, 'Ivy', 'Delicious'),
+(5, 'Aiden', 'I think Ill try this recipe over the weekend.');

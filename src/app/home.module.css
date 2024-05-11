@@ -1,19 +1,9 @@
 .homecontainer {
   background-color: #d6e29d;
-  height: 75vh;
   display: flex;
-  padding-top: 10vh;
 }
 
-.subheading {
-  background-color: #a3c57d;
-  width: 20vw;
-  height: 7vh;
-  border-radius: 45px;
-  font-size: 40px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5vh 3vw;
+.homeimgcontainer {
+  height: 100%;
+  width: 100%;
 }
