@@ -1,0 +1,37 @@
+.editbackground {
+  background-color: #a3c57d;
+  min-height: 85vh;
+  padding: 5vh 3vw;
+}
+
+.editbackground form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editbackground textarea {
+  resize: none;
+  height: 300px;
+  width: 500px;
+}
+
+.editbackground label,
+.editbackground input,
+.editbackground textarea {
+  padding: 10px 0px;
+}
+
+.editbackground button {
+  margin: 10px 0px;
+  color: #2d2d2d;
+  text-decoration: none;
+  background-color: #d6e29d;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 5px;
+}
+
+.editbackground button:hover {
+  cursor: pointer;
+}

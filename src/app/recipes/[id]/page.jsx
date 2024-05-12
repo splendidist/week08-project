@@ -27,6 +27,7 @@ export default async function RecipePage({ params }) {
   return (
     <div className={recipeStyle.recipebackground}>
       <Link href="/recipes">Back to Recipes</Link>
+      <Link href={`/recipes/${params.id}/edit`}>Edit</Link>
       <div className={recipeStyle.postcontainer}>
         <div className={recipeStyle.titlecontainer}>
           <p>{recipe.category}</p>

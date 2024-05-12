@@ -21,6 +21,8 @@ Requirements
 
 Stretch Goals
 
+- The user can edit their name, ingredients, and method in their posts using the edit button, taking them to /recipes/:id/edit
+
 Future Additions
 
 Some things I want to add to this app in the future include:
@@ -30,6 +32,7 @@ Some things I want to add to this app in the future include:
 - The ingredients and recipes displayed in a more readable way
 - Allowing the user to like and edit posts
 - Allow the user to press a button to change the font so it is more readable
+- Have the comments form clear when a user submits a comment
 
 🎯 Were there any requirements or goals that you were not quite able to achieve?
 

@@ -54,6 +54,7 @@
   display: flex;
   width: 10vw;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .recipebackground a:hover {
