@@ -1,6 +1,7 @@
 import recipesStyles from "@/app/recipes/recipes.module.css";
 import { sql } from "@vercel/postgres";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "FolioFlavours | Recipes",
@@ -9,12 +10,12 @@ export const metadata = {
 
 export default async function Recipes({ searchParams }) {
   const recipes = await sql`SELECT * FROM recipes`;
-  console.log(recipes);
+  // console.log(recipes);
 
   if (searchParams.sort === "desc") {
     recipes.rows.reverse();
   }
-  console.log("searchParams", searchParams);
+  // console.log("searchParams", searchParams);
 
   return (
     <div className={recipesStyles.recipesbackground}>
@@ -27,6 +28,7 @@ export default async function Recipes({ searchParams }) {
       <div className={recipesStyles.recipescontainer}>
         {recipes.rows.map((recipe) => (
           <div className={recipesStyles.recipecontainer} key={recipe.id}>
+            <Image src="/leaf.png" alt="leaf " height={200} width={200} />
             <Link href={`/recipes/${recipe.id}`} key={recipe.id}>
               {recipe.title}
             </Link>

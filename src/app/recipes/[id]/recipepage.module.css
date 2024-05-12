@@ -1,6 +1,6 @@
 .recipebackground {
   background-color: #a3c57d;
-  height: 85vh;
+  min-height: 85vh;
   padding: 5vh 3vw;
 }
 
@@ -29,8 +29,14 @@
   font-size: 40px;
 }
 
+.recipebackground h3,
 .postcontainer h3 {
   font-size: 28px;
+}
+
+.recipebackground h3 {
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .postcontainer p {
@@ -52,4 +58,49 @@
 
 .recipebackground a:hover {
   text-decoration: underline;
+}
+
+.formandcomments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentform {
+  margin-bottom: 20px;
+}
+
+.commentform label {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.commentform input {
+  border: none;
+  border-radius: 40px;
+  padding: 1vh 1vw;
+  margin-right: 20px;
+}
+
+.commentform button {
+  background-color: #d6e29d;
+  border: none;
+  border-radius: 40px;
+  padding: 1vh 1vw;
+}
+
+.commentform button:hover {
+  cursor: pointer;
+}
+
+.comment {
+  background-color: #d6e29d;
+  border-radius: 40px;
+  padding: 1vh 3vw;
+  margin: 2vh 0vw;
+  width: 30vw;
+}
+
+.comment p {
+  font-size: 20px;
 }

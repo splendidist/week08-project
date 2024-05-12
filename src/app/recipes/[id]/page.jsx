@@ -39,20 +39,22 @@ export default async function RecipePage({ params }) {
         <p>{recipe.method}</p>
         <p>Posted by {recipe.username}</p>
       </div>
-      <h3>Leave a comment</h3>
-      <form action={handleNewComment} className={recipeStyle.commentform}>
-        <label htmlFor="username">Name</label>
-        <input name="username" />
-        <label htmlFor="comment">Comment</label>
-        <input name="comment" />
-        <button type="submit">Add Comment</button>
-      </form>
-      {comments.rows.map((comment) => (
-        <div key={comment.id}>
-          <h2>{comment.username}</h2>
-          <p>{comment.comment}</p>
-        </div>
-      ))}
+      <div className={recipeStyle.formandcomments}>
+        <h3>Leave a comment</h3>
+        <form action={handleNewComment} className={recipeStyle.commentform}>
+          <label htmlFor="username">Name</label>
+          <input placeholder="Your Name" name="username" />
+          <label htmlFor="comment">Comment</label>
+          <input placeholder="Comment" name="comment" />
+          <button type="submit">Add Comment</button>
+        </form>
+        {comments.rows.map((comment) => (
+          <div className={recipeStyle.comment} key={comment.id}>
+            <h2>{comment.username}</h2>
+            <p>{comment.comment}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

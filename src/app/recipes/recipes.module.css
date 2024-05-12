@@ -1,6 +1,6 @@
 .recipesbackground {
   background-color: #a3c57d;
-  height: 75vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,12 +44,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .recipecontainer a {
   color: black;
   font-size: 32px;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 .recipecontainer a:hover,
