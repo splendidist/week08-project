@@ -30,7 +30,7 @@ Some things I want to add to this app in the future include:
 - Allowing the user to see recipes by category (e.g breakfast/lunch/dinner)
 - Responsive/accessible
 - The ingredients and recipes displayed in a more readable way
-- Allowing the user to like and edit posts
+- Allowing the user to like posts
 - Allow the user to press a button to change the font so it is more readable
 - Have the comments form clear when a user submits a comment
 
